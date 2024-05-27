@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 1em 0;
+      }
+      nav {
+        display: flex;
+        justify-content: center;
+        background-color: #444;
+        padding: 10px;
+      }
+      nav a {
+        color: white;
+        padding: 14px 20px;
+        text-decoration: none;
+        text-align: center;
+      }
+      nav a:hover {
+        background-color: #555;
+      }
+      section {
+        padding: 20px;
+        margin: 20px;
+      }
+      .projects,
+      .about,
+      .contact {
+        background-color: white;
+        padding: 20px;
+        margin: 20px auto;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        max-width: 800px;
+        transition: transform 0.25s ease;
+      }
+      .project {
+        margin-bottom: 20px;
+      }
+      .project h3 {
+        margin: 0;
+      }
+      .contact a:hover {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>My Portfolio</h1>
+    </header>
+
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <section class="about" id="about">
+      <h2>About Me</h2>
+      <p>
+        Hello! I am Sayam Mondal, currently pursuing my Bachelor of Technology
+        in Electronics and Computer Science Engineering from KIIT University.
+        This is my first portfolio page.
+      </p>
+
+      <ul>
+        <h4>Education</h4>
+      </ul>
+      <li>Degree: B.Tech in Electronics and Computer Science Engineering</li>
+      <br />
+      <li>Year: 2023 - 2027</li>
+
+      <ul>
+        <h4>Skills</h4>
+      </ul>
+      <li>Programming Languages: C, C++, Java</li>
+      <br />
+      <li>Web Development: HTML, CSS, JavaScript</li>
+    </section>
+
+    <section class="projects" id="projects">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Project 1</h3>
+        <p></p>
+      </div>
+      <div class="project">
+        <h3>Project 2</h3>
+        <p></p>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>Contact</h2>
+      <p>You can reach me at:</p>
+      <p>
+        Email:
+        <a href="mailto:sayam2022mondal@gmail.com">sayam2022mondal@gmail.com</a>
+      </p>
+      <p>
+        LinkedIn:
+        <a href="https://www.linkedin.com/in/sayam-mondal" target="_blank"
+          >My Profile</a
+        >
+      </p>
+    </section>
+  </body>
+</html>
